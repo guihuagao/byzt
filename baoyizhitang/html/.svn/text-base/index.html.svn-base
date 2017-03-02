@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=8"/>
+		<meta name="renderer" content="webkit" />
+		<title>杭州固元贸易有限公司</title>
+		<!--基本css-->
+		<link rel="stylesheet" href="../css/index.css" />
+		<!--jquery js-->
+		<script type="text/javascript" src="../js/jquery-1.8.2.min.js"></script>
+	<!--圆圈特效-->
+	<script type='text/javascript'>
+$(document).ready(function(){
+  $("#left_top").hover(function(){
+   
+    $("#box_left_top").fadeToggle(1000);
+  });
+  
+   $("#right_top").hover(function(){
+   
+    $("#box_right_top").fadeToggle(1000);
+  });
+   $("#right_bottom").hover(function(){
+   
+    $("#box_right_bottom").fadeToggle(1000);
+  });
+   $("#left_bottom").hover(function(){
+   
+    $("#box_left_bottom").fadeToggle(1000);
+  });
+  
+});
+</script> 
+</head>
+	
+	<body>
+		<div class="content">
+		<div class="circle_middle middle middle_position">
+			<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+		    <div class="flipper">
+			<div class="front">
+				<img src="../img/logo_index.png" />
+			</div>
+			<div class="back">
+			<img src="../img/logo_index.png" />
+			</div>
+		</div>
+	   </div>
+			
+		</div>
+		</div>
+		<div class="content">
+		<div class="circle top top_position">
+			<div class="pic"><img src="../img/b1.jpg"></div>
+			<div class="title"><a href="index.html">首   页</a></div>
+		</div>
+		</div>
+		<div class="content">
+		<div class="circle left_top left_top_position" id="left_top">
+			<div class="pic"><img src="../img/b2.jpg"></div>
+			   <div class="title"><a href="contact_us.html">加入我们</a></div>
+			<div id="box_left_top" class="box_t1" style="display: none;">
+				<a class="t1_1 menu_text" href="pifa.html">批发合作</a>
+				<a class="t1_2 menu_text" href="contact_us.html">联系我们</a>
+			</div>
+		</div>
+		</div>
+		<div class="content">
+		<div class="circle right_top right_top_position" id="right_top">
+			<div class="pic"><img src="../img/b4.jpg"></div>
+			 <div class="title"><a href="about_us.html">关于我们</a></div>
+			<div id="box_right_top" class="box_t2" style="display: none;">
+				<a class="t1_1 menu_text" href="about_us.html#section1">公司简介</a>
+				<a class="t1_2 menu_text" href="about_us.html#section2">基地展示</a>
+				<a class="t1_3 menu_text" href="about_us.html#section3">线上商城</a>
+			</div>
+			
+		</div>
+		</div>
+		<div class="content">
+		<div class="circle right_bottom right_bottom_position" id="right_bottom">
+			<div class="pic"><img src="../img/b3.jpg"></div>
+			<div class="title"><a href="pro.html">产品展示</a></div>
+			<div id="box_right_bottom" class="box_t3" style="display: none;">
+				<a class="t1_1 menu_text" href="pro.html">野山参</a>
+				<a class="t1_2 menu_text" href="pro.html">铁皮石斛</a>
+				<a class="t1_3 menu_text" href="pro.html">冬虫夏草</a>
+				<a class="t1_4 menu_text" href="pro.html">燕窝</a>
+				<a class="t1_5 menu_text" href="pro.html">其他</a>
+			</div>
+		</div>
+		</div>
+		<div class="content">
+		<div class="circle left_bottom left_bottom_position" id="left_bottom">
+			<div class="pic"><img src="../img/b5.jpg"></div>
+			<div class="title"><a href="yangsheng.html">养生资讯</a></div>
+			<div id="box_left_bottom" class="box_t4" style="display: none;">
+				<a class="t1_1 menu_text" href="yangsheng.html">父母保健</a>
+				<a class="t1_2 menu_text" href="yangsheng.html">孕妇滋补</a>
+				<a class="t1_3 menu_text" href="yangsheng.html">男性养生</a>
+				<a class="t1_4 menu_text" href="yangsheng.html">女性养生</a>
+			</div>
+		</div>
+		</div>
+	   <div class="bottom_title">
+	   	<span class="chi">您身边的健康养生顾问</span>
+	  <span class="enl">TRADITIONAL CHINESE HERBAL TONIC</span>
+	   </div>
+	 
+	
+		<div class="foot_bg">
+		<span>@copyright宝颐芝堂官网 All Rights Reserved.</span>
+		</div>
+	
+	
+	</body>
+</html>
